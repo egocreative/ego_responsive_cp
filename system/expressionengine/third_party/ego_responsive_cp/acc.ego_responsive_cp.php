@@ -14,7 +14,7 @@ class Ego_responsive_cp_acc
 {
 	var $name	 		= 'Ego Responsive CP';
 	var $id	 			= 'ego_responsive_cp';
-	var $version	 	= '0.1';
+	var $version	 	= '0.1.1';
 	var $description	= "Makes CP theme responsive, based on Ben Croker's (http://www.putyourlightson.net/) masterpiece - but worked in with override.css";
 	var $sections	 	= array();
 	
@@ -36,7 +36,7 @@ class Ego_responsive_cp_acc
 	function set_sections()
 	{
 		// hide accessory
-//		$this->sections[] = '<script type="text/javascript">$("#accessoryTabs a.responsive_cp").parent().remove();</script>';
+		$this->sections[] = '<script type="text/javascript">$("#accessoryTabs a.ego_responsive_cp").parent().remove();</script>';
 
 		// get theme folder
 		$theme_folder_url = URL_THIRD_THEMES.'ego_responsive_cp/';
