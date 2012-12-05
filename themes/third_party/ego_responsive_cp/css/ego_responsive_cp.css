@@ -25,6 +25,10 @@ body {
 	margin: 2px 0 2px 5px;
 }
 
+#navigationTabs li.home {
+	margin-right:5px;
+}
+
 #navigationTabs li.msm_sites {
 	margin-top: 1px;
 }
@@ -58,11 +62,6 @@ body {
 
 #breadCrumb li a {
 	padding: 9px 2px 8px 0px;
-	font-size:11px;
-}
-
-#breadCrumb li:first-child {
-	font-weight: bold;
 }
 
 #breadCrumb li.last {
